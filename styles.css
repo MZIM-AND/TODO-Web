@@ -1,0 +1,1265 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  opacity: 
+}
+
+body{
+  font-family: sans-serif, "poppins";
+  background-color: #e4e3f0;
+}
+
+/*holder styles starts in this section*/
+
+.holder{
+  height: 2900px;
+  width: 1090px;
+  background-color: #eceeed;
+  margin: auto;
+  box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  margin-top: 1rem;
+  background-image: linear-gradient(to bottom, black, navy, navy);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*header styles are all nested in this below section*/
+
+header{
+  display: flex;
+}
+
+.logo-circle{
+  height: 50px;
+  width: 50px;
+  background-image: linear-gradient(to bottom, purple,red);
+  border-radius: 100%;
+  Margin-top: 2rem;
+  margin-left: 4rem;
+  color: white;
+  display: flex;
+  opacity: 95%;
+}
+
+h7{
+  margin: auto;
+  font-size: 25px;
+  color: #fff;
+}
+
+.active{
+  border-bottom: 2px solid white;
+}
+
+#logo{
+  display: flex;
+}
+
+h1{
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+}
+
+.top-nav{
+  margin-top: 2.9rem;
+  margin-left: 1.8rem;
+  display: flex;
+}
+
+.top-nav a{
+  text-decoration: none;
+  padding-left: 1rem;
+  color: white;
+  font-size: 17px;
+}
+
+.top-nav a:hover{
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+} 
+
+.countries{
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  cursor: pointer;
+  margin-left: 1rem;
+  display: flex;
+}
+
+.login{
+  background-color: blue;
+  height: 35px;
+  width: 100px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 1rem;
+  opacity: 80%;
+}
+
+.signup{
+  background-color: blue;
+  height: 35px;
+  width: 100px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 1rem;
+  opacity: 80%;
+}
+
+.login:hover{
+  background-color: #fff;
+  color: black;
+  transition: 0.5s ease;
+}
+
+.signup:hover{
+  background-color: #fff;
+  color: black;
+  transition: 0.5s ease;
+}
+
+.top-nav .icon{
+  display: none;
+}
+
+/*The top-nav styles ends here, the below section focuses on the responsiveness of the top-nav*/
+
+
+/*Hero section styles commences in this scetion*/
+
+h2{
+  margin-left: 17rem;
+  margin-top: 4rem;
+  font-size: 30px;
+}
+
+h3{
+ font-size: 30px;
+ margin-left: 35rem;
+ margin-top: 0.2rem;
+}
+
+/*Hero section styles are here*/
+
+#container{
+  height: 300px;
+  width: 900px;
+  background-color:none;
+  margin-top: 6rem;
+  margin-left: 4rem;
+  opacity: 90%;
+  display: flex;
+}
+
+.container1{
+  height: 300px;
+  width: 50%;
+  background: none;
+}
+
+h1{
+  font-size: 40px;
+  color: #fff;
+}
+
+.explanation1{
+  margin-left: 1rem;
+  margin-top: 0.9rem;
+  color: #fff;
+}
+
+.get-started{
+  margin-left: 1rem;
+  margin-top: 0.9rem;
+  height: 40px;
+  width: 100px;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 80%;
+  border: none;
+}
+.get-started:hover{
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+  transition: 0.3s ease;
+}
+
+.explanation2{
+  margin-left: 1rem;
+}
+
+/*the right hero section styles are here*/
+
+.container2{
+  height: 180px;
+  width: 300px;
+  background-color:black;
+  margin-left: 5rem;
+  margin-top: 3rem;
+  border-radius: 7px;
+  opacity: 90%;
+  color: #fff;
+}
+
+.support{
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.page-numbers{
+  margin-left: 1rem;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.top-box{
+  height: 80px;
+  width: 200px;
+  background-color: black;
+  margin-bottom: 1rem;
+  position: relative;
+  margin-left: 12rem;
+  bottom: 11rem;
+  border-radius: 6px;
+  opacity: 90%;
+  border: 1px solid white;
+  color: #fff;
+
+}
+
+.support-list{
+  display: flex;
+}
+
+.support-box1{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(160, 100, 100);
+  margin-left: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  border-radius: 6px;
+}
+h4{
+  margin: auto;
+}
+
+h5{
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.block1{
+  display: block;
+}
+
+.components{
+  font-size: 10px;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.price{
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.dashboard{
+  display: flex;
+}
+
+.dashboard-container{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(160, 100, 100);
+  margin-left: 1rem;
+  margin-top: 0.9rem;
+  border-radius: 6px;
+  display: flex;
+}
+
+h6{
+  margin: auto;
+  font-size: 15px;
+}
+
+.price2{
+  margin-left: 6.6rem;
+  margin-top: 1rem;
+}
+
+.validation{
+  font-size: 15px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+h8{
+  font-size: 15px;
+  margin-left: 1rem;
+  padding-top: 0.8rem;
+}
+
+
+
+/*section 2 content styles are here*/
+
+#section2{
+  height: 2500px;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, black,black, navy);
+  padding-top: 1rem;
+}
+
+h9{
+  color: white;
+  margin-left: 24rem;
+  display: flex;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.explanation4{
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 0.4;
+  display: flex;
+  margin-left: 19rem;
+  margin-top: 1rem;
+  opacity: 70%;
+}
+
+#middle-section2{
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 4rem;
+}
+
+.online-profile{
+height: 50px;
+width: 50px;
+background-color: navy;
+bottom: 19px;
+position: relative;
+opacity: 0.7;
+border-radius: 7px;
+border-width: thick;
+display: flex;
+}
+
+.hl{
+ height: 7px;
+ width: 700px;
+ margin-left: 10rem;
+ border-radius: 2px;
+background-image: linear-gradient(to bottom right,pink, red, yellow);
+display: flex;
+}
+
+.plan-tasks{
+  height: 50px;
+  width: 50px;
+  background-color: navy;
+  bottom: 19px;
+  position: relative;
+  opacity: 0.7;
+  margin-left: 16rem;
+  border-radius: 7px;
+  border-width: thick;
+  display: flex;
+
+}
+
+.execution{
+  height: 50px;
+  width: 50px;
+  background-color: navy;
+  position: relative;
+  bottom: 19px;
+  opacity: 0.7;
+  margin-left: 19rem;
+  border-radius: 7px;
+  border-width: thick;
+  display: flex;
+}
+
+h10{
+  margin: auto;
+  color: #fff;
+  font-size: 25px;
+}
+
+h11{
+  margin: auto;
+  font-size: 25px;
+  color: #fff;
+}
+
+h13{
+   color: #fff;
+   padding-top: 2rem;
+   display: flex;
+   margin-left: 4rem;
+   font-size: 22px;
+   margin-top: 2rem;
+}
+
+.explanation5{
+  color: white;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  font-size: 13px;
+}
+
+.content2-1{
+  display: flex;
+  margin-left: 3.5rem;
+}
+
+.profile{
+  display: block;
+}
+
+h14{
+  color: #fff;
+  display: flex;
+  margin-top: 4rem;
+  font-size: 22px;
+  margin-left: 2rem;
+}
+
+.explanation6{
+  color: #fff;
+  font-size: 12px;
+  margin-left: 2rem;
+  margin-top: 0.4rem;
+
+}
+.customization{
+  display: block;
+}
+
+
+h16{
+  color: #fff;
+  padding-top: 3.8rem;
+  font-size: 22px;
+  margin-left: 2rem;
+  display: flex;
+}
+
+.explanation7{
+  color: #fff;
+  margin-left: 2rem;
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+
+/*the styles for this section ends here*/
+
+#section3{
+  display: flex;
+}
+
+.frame{
+  height: 300px;
+  width: 400px;
+  background-image: url("https://plus.unsplash.com/premium_photo-1661963783275-dff88a0296f6?auto=format&fit=crop&q=80&w=1469&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  margin-left: 6rem;
+  margin-top: 7rem;
+  border-radius: 10px;
+  border-image: linear-gradient(45deg, purple,orange)1;
+  border-width: 7px;
+  border-style: solid;
+}
+
+h17{
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  margin-top: 8rem;
+  margin-left: 2rem;
+}
+
+.section3-1{
+  display: block;
+}
+
+.explanation8{
+  color: #fff;
+  opacity: 80%;
+  font-size: 13px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.subscriptions{
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.try-it{
+  height: 35px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.try-it:hover{
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+  transition: 0.3s ease;
+}
+
+.how-itworks{
+   margin-left: 2rem;
+   border-radius: 6px;
+   height: 35px;
+   width: 100px;
+   background-color: black;
+   color: #fff;
+   border: 1px solid blue;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.how-itworks:hover{
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+  transition: 0.3s ease;
+}
+
+/*pricing section styles are here*/
+
+#pricing-plan{
+  display: flex;
+}
+
+h18{
+  margin-left: 24rem;
+  padding-top: 5rem;
+  display: flex;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.feature-box{
+  height: 400px;
+  width: 900px;
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.feature-explanation{
+  color: #fff;
+  display: flex;
+  margin: auto;
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+
+#boxes{
+  display: flex;
+}
+
+.feature-box{
+  display: block;
+}
+
+/*the feature box styles are here*/
+
+.box1{
+  height: 200px;
+  width: 35%;
+  background-color: #030316;
+}
+
+.box2{
+  height: 200px;
+  width: 35%;
+  background-color: #06041b;
+}
+
+.box3{
+  height: 200px;
+  width: 35%;
+  background-color: #030316;
+}
+
+/*The styles on box 1 of the feature boxes are below*/
+.blue{
+  height: 30px;
+  width: 30px;
+  background-color: #0a1520;
+  display: flex;
+  border-radius: 100%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #216f97;
+  box-shadow:  2px 1px 15px 3px #216f97;
+}
+
+h19{
+  margin: auto;
+  display: flex;
+  color: #216f97;
+
+}
+
+h20{
+  color: #fff;
+  margin-top: 1.5rem;
+  display: flex;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.re-arrange{
+  color: #fff;
+  font-size: 15px;
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+
+/*The styles of box 2 of the feature boxes are here*/
+
+.red{
+  height: 30px;
+  width: 30px;
+  background-color: #110f11;
+  display: flex;
+  border-radius: 100%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #7a2521;
+  box-shadow:  2px 1px 15px 3px #7a2521 ;
+}
+
+h21{
+  margin: auto;
+  display: flex;
+  color: #7a2521 ;
+}
+
+h22{
+  color: #fff;
+  margin-top: 1.5rem;
+  display: flex;
+  font-size: 20px;
+  opacity: 0.8;
+  margin-left: 1rem;
+}
+
+.sync{
+  color: #fff;
+  font-size: 15px;
+  margin-top: 1rem;
+  opacity: 0.7;
+  margin-left: 1rem;
+}
+
+/*Third box styles of the feature box are here */
+.green{
+  height: 30px;
+  width: 30px;
+  background-color: #110f11;
+  display: flex;
+  border-radius: 100%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #1f674d;
+  box-shadow:  2px 1px 15px 3px #1f674d;
+}
+
+h23{
+  margin: auto;
+  display: flex;
+  color:  #1f674d;
+}
+
+h24{
+  color: #fff;
+  margin-top: 1.5rem;
+  display: flex;
+  font-size: 20px;
+  opacity: 0.8;
+  margin-left: 1rem;
+}
+
+.today-list{
+  color: #fff;
+  font-size: 15px;
+  margin-top: 1rem;
+  opacity: 0.7;
+  margin-left: 1rem;
+}
+
+/*boxes2 styles is below this section*/
+
+.boxes2{
+  display: flex;
+}
+
+.box4{
+  height: 200px;
+  width: 35%;
+  background-color: #030316;
+  display: block;
+}
+
+.box5{
+  height: 200px;
+  width: 35%;
+  background-color: #030316;
+}
+
+.box6{
+  height: 200px;
+  width: 35%;
+  background-color: #030316;
+}
+
+/*The bottom 3 boxes styles are this sectio*/
+
+.yellow{
+  height: 30px;
+  width: 30px;
+  background-color: #0a1520;
+  display: flex;
+  border-radius: 100%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: 1px solid yellow;
+  box-shadow:  2px 1px 15px 3px yellow;
+}
+
+h25{
+  color: yellow;
+  margin: auto;
+}
+
+h26{
+  color: #fff;
+  margin-top: 1.5rem;
+  display: flex;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.box4-content{
+  display: block;
+}
+
+.future-tasks{
+  color: #fff;
+  font-size: 15px;
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+
+.purple{
+  height: 30px;
+  width: 30px;
+  background-color: #0a1520;
+  display: flex;
+  border-radius: 100%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: 1px solid purple;
+  box-shadow:  2px 1px 15px 3px purple;
+}
+
+h27{
+  margin: auto;
+  color: purple;
+}
+
+h28{
+  color: #fff;
+  margin-top: 1.5rem;
+  display: flex;
+  font-size: 20px;
+  opacity: 0.8;
+  margin-left: 1rem;
+}
+
+.picture-tasks{
+  color: #fff;
+  font-size: 15px;
+  margin-top: 1rem;
+  opacity: 0.7;
+  margin-left: 1rem;
+}
+
+.navy{
+  height: 30px;
+  width: 30px;
+  background-color: #0a1520;
+  display: flex;
+  border-radius: 100%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: 1px solid blueviolet;
+  box-shadow:  2px 1px 15px 3px blueviolet;
+}
+
+h29{
+  margin: auto;
+  color: blueviolet;
+}
+
+h30{
+  color: #fff;
+  margin-top: 1.5rem;
+  display: flex;
+  font-size: 20px;
+  opacity: 0.8;
+  margin-left: 1rem;
+}
+
+.voice-capture{
+  color: #fff;
+  font-size: 15px;
+  margin-top: 1rem;
+  opacity: 0.7;
+  margin-left: 1rem;
+}
+
+/*third section styles end here*/
+
+.we-helpyou{
+  display: flex;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.left-section{
+  height: 400px;
+  width: 500px;
+  background-color: red;
+  background-image: url("https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?auto=format&fit=crop&q=80&w=1339&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 3rem;
+}
+
+.reasoning{
+  height: 400px;
+  width: 400px;
+  background-color: none;
+}
+
+h31{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  display: flex;
+}
+
+h32{
+  color: blue;
+  margin-left: 2rem;
+  font-size: 15px;
+}
+/*here are the reasons or styles on why choosing us might be the great option for he user*/
+
+#reasons{
+  display: block;
+}
+
+.reason1{
+  height: 30px;
+  width: 30px;
+  background-color: #66769c;
+  border-radius: 100%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  display: flex;
+}
+
+h34{
+  margin: auto;
+  color: blue;
+  font-size: 18px;
+}
+
+h35{
+  color: white;
+  margin-top: 2.2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.reason2{
+  height: 30px;
+  width: 30px;
+  background-color: #66769c;
+  border-radius: 100%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.two{
+  display: flex;
+}
+
+
+
+.reason3{
+  height: 30px;
+  width: 30px;
+  background-color: #66769c;
+  border-radius: 100%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.one{
+  display: flex;
+}
+
+.three{
+  display: flex;
+}
+
+
+/*the pricing styles can be found in the below section*/
+
+h36{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 27rem;
+  margin-top: 2rem;
+  display: flex;
+}
+
+#pricing-box{
+  display: flex;
+}
+
+.price5{
+  height: 400px;
+  width: 300px;
+  background-color: #110f11;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+
+
+.price4{
+  height: 400px;
+  width: 300px;
+  background-color: #110f11;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.price3{
+  height: 400px;
+  width: 300px;
+  background-color: #110f11;
+  margin-left: 4rem;
+  margin-top: 4rem;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+/*the pricing boxes' content needs is nested separately below this section*/
+
+h37{
+  color: white;
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+h38{
+  color: white;
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.bottom-border{
+  height: 2px;
+  width: 260px;
+  background-color: #66769c;
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+h39{
+  color: white;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  opacity: 0.7;
+}
+
+ol{
+  color: white;
+  font-size: 12px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  line-height: 2rem;
+  opacity: 0.8;
+}
+
+.choose-plan{
+  margin-left: 1rem;
+  margin-top: 2rem;
+  width: 250px;
+  height: 30px;
+  border: 0.1px solid white;
+  background-color: black;
+  color: #fff;
+  border-radius: 6px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.choose-plan:hover{
+  background-color: white;
+  color: black;
+  border: 0.1px ;
+  transition: 0.3s ease;
+}
+
+/*second box button styles are here*/
+
+.standard{
+  margin-left: 1rem;
+  margin-top: 2rem;
+  width: 250px;
+  height: 30px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 6px;
+  opacity: 0.9;
+  cursor: pointer;
+  border: none;
+}
+
+.standard:hover{
+  background-color: white;
+  color: black;
+  border: 0.1px ;
+  transition: 0.3s ease;
+}
+
+/*All the footer styles are below this sectio*/
+
+.last-explanation{
+  color: white;
+  margin-left: 3.7rem;
+  opacity: 0.6;
+  font-size: 15px;
+  display: flex;
+}
+
+.social-media{
+  display: flex;
+  width: 1100px;
+}
+.platforms{
+  margin-left: 26rem;
+  display: flex;
+}
+
+h40{
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+}
+
+h40:hover{
+  color: white;
+}
+
+h42{
+  color: #1877F2;
+  cursor: pointer;
+}
+
+h42:hover{
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+h43{
+  color: #075e54;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+h43:hover{
+ color: #fff;
+ transition: 0.3s ease;
+}
+
+h44{
+  color: #c4302b;
+  cursor: pointer;
+}
+
+h44:hover{
+  color: white;
+  transition: 0.3s ease;
+}
+
+h40, h42, h43, h44{
+  padding-left: 2rem;
+  font-size: 17px;
+}
+
+/*this section will focus on the responsiveness of the overall landing page*/
+
+@media (max-width: 640px){
+  header{
+    display: block;
+  }
+  .top-nav{
+    display: block;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+   a{
+     display: block;
+     margin-top: 1rem;
+   }
+
+   .countries, .signup, .login{
+     display: block;
+     margin-top: 1rem;
+     margin-left: 0.5rem;
+   }
+
+   .login, .signup{
+     width: 200px;
+     margin-left: 0rem;
+   }
+
+   /*the first section responsiveness ends in this section*/
+
+   #container{
+    display: block;
+   }
+
+   #section2{
+     margin-top: 20rem;
+   }
+
+   .container2{
+     margin-left: 0.9rem;
+     margin-top: 2rem;
+   }
+
+   /*the hero section styles ends here*/
+
+   h9{
+     margin-left: 6rem;
+   }
+
+   .explanation4{
+     margin-left: 3rem;
+   }
+
+   .hl{
+     display: none;
+   }
+
+   .content2-1{
+     display: block;
+     margin-left: 3rem;
+     margin-top: 1rem;
+   }
+
+   h13{
+     margin-left: 3rem;
+   }
+
+   /*section three styles are nested in the below section*/
+
+   #section3{
+     display: block;
+   }
+
+   .section3-1{
+     margin-left: 3rem;
+   }
+
+   .subscriptions{
+     margin-left: 2rem
+   }
+
+   /*the features styles are here*/
+
+   h18{
+     margin-left: 8rem;
+   }
+
+   .feature-explanation{
+     margin-left: 0.7rem;
+     font-size: 11px;
+   }
+
+   #boxes{
+     display: block;
+   }
+
+   .holder{
+     height: 2000px;
+   }
+}
+
+
+
+
+
+
+
